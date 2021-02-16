@@ -11,6 +11,7 @@ import java.util.Collection;
 @Table(name = "users")
 public class User {
 
+    @Builder
     public User(Long id, String userEmail, String password, String firstName, String lastName, Byte[] profileImage,
                 String userBio) {
         this.id = id;
