@@ -3,7 +3,6 @@ package be.intecbrussel.blogapplication.model;
 import lombok.*;
 
 import javax.persistence.*;
-import java.security.Principal;
 import java.time.LocalDateTime;
 import java.util.Collection;
 
